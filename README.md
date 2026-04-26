@@ -1,26 +1,27 @@
-# 🛍️ E-Commerce Analytics Dashboard
+# 🛍️ E-Commerce Analytics Dashboard (Power BI + SQL)
 
 ## 📌 Overview
 
-This project analyzes e-commerce data to understand customer behavior, sales trends, and product performance using SQL and Power BI.
+This project analyzes e-commerce data to generate insights on customer behavior, sales performance, product trends, and operations using SQL and Power BI.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze sales and revenue trends
-* Understand customer behavior (new vs repeat, churn)
+* Analyze revenue and sales trends
+* Understand customer behavior (New vs Repeat, Churn)
 * Identify top products and categories
-* Track returns and delivery performance
+* Monitor return rates and delivery performance
+* Build a basic conversion funnel (Session → Purchase)
 
 ---
 
 ## 🗂️ Data Used
 
-* Customers data
-* Orders data
-* Monthly revenue data
-* Product summary
+* Customers table
+* Orders table
+* Monthly revenue table
+* Product summary table
 
 ---
 
@@ -38,23 +39,33 @@ This project analyzes e-commerce data to understand customer behavior, sales tre
 ## 📈 Dashboard Pages
 
 * **Overview** → KPIs and revenue trends
-* **Customer Insights** → segmentation, churn, repeat vs new
-* **Product Analysis** → top products and categories
-* **Operations** → delivery, returns, funnel
+* **Customer Insights** → segmentation, age distribution, repeat vs new, churn
+* **Product Analysis** → top categories and products
+* **Operations** → delivery performance, orders by day, return trends, funnel
 
 ---
 
-## 🛠️ Tools Used
+## 🛠️ Tools & Technologies
 
 * SQL (MySQL)
 * Power BI
 * DAX
+* Star Schema Data Modeling
 
 ---
 
-## 🔍 Insights
+## 🎨 Features
 
-* Repeat customers generate more revenue
+* Interactive dashboard with **page navigation**
+* **Synced slicers with selective visibility**
+* Dynamic KPIs and filters
+* Clean and structured UI
+
+---
+
+## 🔍 Key Insights
+
+* Repeat customers contribute more to revenue
 * Some categories have higher return rates
 * Orders are higher on weekends
 * Delivery performance impacts customer experience
@@ -63,6 +74,6 @@ This project analyzes e-commerce data to understand customer behavior, sales tre
 
 ## 🚀 Conclusion
 
-This project helped in understanding how data can be used to make better business decisions.
+This project demonstrates how data can be transformed into actionable insights for better business decisions.
 
 ---
